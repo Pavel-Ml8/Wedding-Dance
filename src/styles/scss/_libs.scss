@@ -1,0 +1,118 @@
+// Slick slider ________________________________________________________________
+
+/* Слайдер */
+.slick-slider{}
+/* Слайдер запущен */
+.slick-slider.slick-initialized{}
+/* Слайдер с точками */
+.slick-slider.slick-dotted{}
+/* Ограничивающая оболочка */
+.slick-list {
+  overflow: hidden;
+}
+/* Лента слайдов */
+.slick-track{
+  display: flex;
+}
+/* Слайд */
+.slick-slide{
+}
+/* Слайд активный (показывается) */
+.slick-slide.slick-active{}
+/* Слайд основной */
+.slick-slide.slick-current{}
+/* Слайд по центру */
+.slick-slide.slick-center{}
+/* Клонированный слайд */
+.slick-slide.slick-cloned{}
+/* Стрелка */
+.slick-arrow{}
+/* Стрелка влево */
+.slick-arrow.slick-prev{}
+/* Стрелка вправо */
+.slick-arrow.slick-next{}
+/* Стрелка не активная */
+.slick-arrow.slick-disabled{}
+/* Точки (булиты) */
+.slick-dots{}
+.slick-dots li{}
+/* Активная точка */
+.slick-dots li.slick-active{}
+/* Элемент точки */
+.slick-dots li button{}
+
+// COACHES Slider __________________________________________________________________________________
+.coaches__slider{
+  position: relative;
+}
+.coach-card{}
+
+.coaches__slider .slick-dots {
+  position: absolute;
+  left: 50%;
+  bottom: -16px;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.coaches__slider .slick-dots li {
+  margin: 0 2px;
+  list-style: none;
+  font-size: 0;
+}
+
+.coaches__slider .slick-dots li button {
+  box-sizing: border-box;
+  width: 6px;
+  height: 6px;
+  padding: 0;
+
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  background-color: transparent;
+  outline: none;
+  font-size: 0;
+}
+
+.coaches__slider .slick-dots li.slick-active button {
+  background-color: $mainColor;
+  border: none;
+}
+
+// SERVICES Slider __________________________________________________________________________________
+.service-list{}
+.service-card{}
+
+.service-list .slick-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 12px auto 0;
+}
+
+.service-list .slick-dots li {
+  margin: 0 2px;
+  list-style: none;
+  font-size: 0;
+}
+
+.service-list .slick-dots li button {
+  box-sizing: border-box;
+  width: 6px;
+  height: 6px;
+  padding: 0;
+
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  background-color: transparent;
+  outline: none;
+  font-size: 0;
+}
+
+.service-list .slick-dots li.slick-active button {
+  background-color: $mainColor;
+  border: none;
+}
+
